@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -35,4 +36,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.word {
+  letter-spacing: 1em;
+}
+
+.button_a {
+  font-size: 0.8em;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: green;
+  padding: 12px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.button_a:hover {
+  cursor: pointer;
+  background: #61dafb;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.1s ease 0s;
 }

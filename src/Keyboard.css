@@ -1,0 +1,25 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    user-select: none;
+  }
+  
+.keyboard > .card {
+    font-size: 1em;
+    flex: 1 1 calc(100% / 13 - 0.4em);
+    outline: 0.08em solid silver;
+    margin: 0.2em;
+    display: flex;
+    cursor: default;
+    justify-content: center;
+}
+
+.keyboard > .card:hover {
+    cursor: pointer;
+    background: rgb(34, 34, 34);
+}
+
+.keyboard > .card.used {
+    background: rgb(139, 139, 139);
+}
